@@ -1,0 +1,51 @@
+
+.income-expenses-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-button {
+    background: #1e2f97;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .add-button:hover {
+    background: #4c66a4;
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .remove-button {
+    background: #f56565;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .remove-button:hover {
+    background: #e53e3e;
+  }
+  
+  .prev-button {
+    background: #d1d5db;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .prev-button:hover {
+    background: #9ca3af;
+  }
+  
