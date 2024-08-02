@@ -158,38 +158,42 @@ button {
 
 @media (max-width: 576px) {
   .app-container {
-    padding: 10px;
+    padding: 10px; /* Add padding for mobile */
   }
 
   .steps {
-    width: 100%; 
-    margin-bottom: 15px; 
+    width: 100px; /* Make steps smaller */
+    margin-bottom: 15px; /* Add spacing below steps */
+  }
+
+  .form-content {
+    width: calc(100% - 110px); /* Increase form width further */
   }
 
   .step {
-    padding: 10px;
-    margin: 5px 0; 
+    padding: 10px; /* Adjust padding for steps */
+    margin: 5px 0; /* Reduce margin for steps */
   }
 
   button {
-    width: 100%;
-    margin-top: 10px; 
+    width: 100%; /* Make buttons full width */
+    margin-top: 10px; /* Add spacing between buttons */
   }
 
   .form-title {
-    font-size: 1.25em; 
+    font-size: 1.25em; /* Adjust font size for mobile */
   }
 
   .form-subtitle {
-    font-size: 0.9em; 
+    font-size: 0.9em; /* Adjust font size for mobile */
   }
 
   form input {
-    padding: 6px; 
-    border-radius: 3px; 
+    padding: 6px; /* Reduce input padding for smaller boxes */
+    border-radius: 3px; /* Slightly reduce border radius */
   }
 
   .currency-select {
-    padding: 8px; 
+    padding: 8px; /* Reduce padding for currency select */
   }
 }
