@@ -1,4 +1,3 @@
-
 body, html {
   margin: 0;
   padding: 0;
@@ -129,7 +128,6 @@ button {
   border: 1px solid #ccc;
 }
 
-
 @media (max-width: 1200px) {
   .card-container {
     max-width: 80%;
@@ -155,5 +153,43 @@ button {
   .card-container {
     max-width: 100%;
     padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  .steps {
+    width: 100%; 
+    margin-bottom: 15px; 
+  }
+
+  .step {
+    padding: 10px;
+    margin: 5px 0; 
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px; 
+  }
+
+  .form-title {
+    font-size: 1.25em; 
+  }
+
+  .form-subtitle {
+    font-size: 0.9em; 
+  }
+
+  form input {
+    padding: 6px; 
+    border-radius: 3px; 
+  }
+
+  .currency-select {
+    padding: 8px; 
   }
 }
